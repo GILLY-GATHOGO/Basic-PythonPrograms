@@ -1,0 +1,7 @@
+#This program convert cm imput into Inches and if a user enters a -ve value, it returns an Invalid error
+length=eval(input("Enter the length in cm"))
+if length <0:
+    print("Invalid length")
+else:
+    inch=length/2.54
+    print("The length in Iches is Equal to: ", inch)
